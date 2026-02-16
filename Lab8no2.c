@@ -1,3 +1,6 @@
+#include <stdio.h>
+char charkeys[10]={'D','B','D','C','C','D','A','E','A','D'};
+int checkscore(char std[]);
 int main() {
     int i,j;
     char ans[8][10]={
@@ -41,3 +44,4 @@ int countCorrectQ1(char ans[][10],int students){
     }
     return count;
 }
+
